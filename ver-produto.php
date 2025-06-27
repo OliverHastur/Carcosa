@@ -1,77 +1,36 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php require_once ('header.php')?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Web/Site completo V2/assets/css/style.css">
-    <title>La Coqueteria</title>
-</head>
-
-<body>
-    <!--INÍCIO DO BANNER-->
-    <div class="novoMenu">
-        <!--INÍCIO DO CONTAINER-->
-        <div class="container">
-            <!--INÍCIO DA NAVEGAÇÃO-->
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="/Web/Site completo V2/assets/img/logoEscura.png" alt=""
-                            width="125px"></a>
-                </div>
-                <!--INÍCIO DO MENU DE NAVEGAÇÃO-->
-                <nav>
-                    <ul id="MenuItens">
-                        <li><a href="index.html" title="">Início</a></li>
-                        <li><a href="produtos.html" title="">Produtos</a></li>
-                        <li><a href="" title="">Empresa</a></li>
-                        <li><a href="contatos.html" title="">Contatos</a></li>
-                        <li><a href="minha-conta.html" title="">Minha Conta</a></li>
-                    </ul>
-                </nav>
-                <!--FIM DO MENU DE NAVEGAÇÃO-->
-                <a href="carrinho.html">
-                    <img src="/Web/Site completo V2/assets/img/carrinho2.png" alt="" width="30px" height="30px">
-                </a>
-                <img src="/Web/Site completo V2/assets/img/menu.png" alt="" class="menu-celular"
-                    onclick="menucelular()">
-            </div>
-            <!--FIM DA NAVEGAÇÃO-->
-        </div>
-        <!--FIM DO CONTAINER-->
-    </div>
-    <!--FIM DO BANNER-->
 
     <!--INÍCIO DETALHES DO PRODUTO-->
     <div class="corpo-categorias ver-produto">
         <div class="linha">
             <div class="col-2">
-                <img src="/Web/Site completo V2/assets/img/galeria-1.jpg" alt="" id="produtoImg">
+                <img src="/coqueteria-v1/assets/img/galeria-1.jpg" alt="" id="produtoImg">
 
                 <!--INÍCIO LINHA DA GALERIA-->
                 <div class="img-linha">
                     <!--INÍCIO ITEM GALERIA-->
                     <div class="img-col">
-                        <img src="/Web/Site completo V2/assets/img/galeria-1.jpg" alt="" width="100%"
+                        <img src="/coqueteria-v1/assets/img/galeria-1.jpg" alt="" width="100%"
                             class="produtoMiniatura">
                     </div>
                     <!--FIM ITEM GALERIA-->
 
                     <!--INÍCIO ITEM GALERIA-->
                     <div class="img-col">
-                        <img src="/Web/Site completo V2/assets/img/galeria-2.jpg" alt="" width="100%"
+                        <img src="/coqueteria-v1/assets/img/galeria-2.jpg" alt="" width="100%"
                             class="produtoMiniatura">
                     </div>
                     <!--FIM ITEM GALERIA-->
                     <!--INÍCIO ITEM GALERIA-->
                     <div class="img-col">
-                        <img src="/Web/Site completo V2/assets/img/galeria-3.jpg" alt="" width="100%"
+                        <img src="/coqueteria-v1/assets/img/galeria-3.jpg" alt="" width="100%"
                             class="produtoMiniatura">
                     </div>
                     <!--FIM ITEM GALERIA-->
                     <!--INÍCIO ITEM GALERIA-->
                     <div class="img-col">
-                        <img src="/Web/Site completo V2/assets/img/galeria-4.jpg" alt="" width="100%"
+                        <img src="/coqueteria-v1/assets/img/galeria-4.jpg" alt="" width="100%"
                             class="produtoMiniatura">
                     </div>
                     <!--FIM ITEM GALERIA-->
@@ -120,8 +79,8 @@
         <div class="linha">
             <!--INÍCIO ITEM PRODUTO 9 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-9.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-9.jpg" alt="">
                 </a>
                 <h4>Sousplat</h4>
                 <div class="classificacao">
@@ -136,8 +95,8 @@
             <!--FIM ITEM PRODUTO 9 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 10 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-10.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-10.jpg" alt="">
                 </a>
                 <h4>Tapete</h4>
                 <div class="classificacao">
@@ -152,8 +111,8 @@
             <!--FIM ITEM PRODUTO 10 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 11 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                <img src="/Web/Site completo V2/assets/img/produto-11.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                <img src="/coqueteria-v1/assets/img/produto-11.jpg" alt="">
                 </a>
                 <h4>Porta-Celular</h4>
                 <div class="classificacao">
@@ -168,8 +127,8 @@
             <!--FIM ITEM PRODUTO 11 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 12 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                <img src="/Web/Site completo V2/assets/img/produto-12.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                <img src="/coqueteria-v1/assets/img/produto-12.jpg" alt="">
                 </a>
                 <h4>Pochete</h4>
                 <div class="classificacao">
@@ -188,56 +147,5 @@
     </div>
     <!--FIM PRODUTOS EM DESTAQUE-->
 
-    <!--INÍCIO RODAPÉ-->
-    <footer class="rodape">
 
-        <div class="container">
-
-            <div class="linha">
-
-                <div class="rodape-col-1">
-                    <h3>Baixe o nosso App</h3>
-                    <p>Baixe nosso aplicativo nas melhores plataformas</p>
-                    <div class="app-logo">
-                        <img src="/Web/Site completo V2/assets/img/google.png" alt="">
-                        <img src="/Web/Site completo V2/assets/img/apple.png" alt="">
-                    </div>
-                </div>
-
-                <div class="rodape-col-2">
-                    <img src="/Web/Site completo V2/assets/img/logo-2.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias ipsum asperiores
-                        recusandae delectus corporis aspernatur iusto.</p>
-                </div>
-
-                <div class="rodape-col-3">
-                    <h3>Mais Informações</h3>
-                    <ul>
-                        <li>Cupons</li>
-                        <li>Blog</li>
-                        <li>Política de Privacidade</li>
-                        <li>Contatos</li>
-                    </ul>
-                </div>
-
-                <div class="rodape-col-4">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-                        <li>X</li>
-                    </ul>
-                </div>
-                <p class="direitos">
-                    &#169; Todos os direitos reservados | La Coqueteria | 2025
-                </p>
-            </div>
-    </footer>
-    <!--FIM RODAPÉ-->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="/Web/Site completo V2/assets/js/app.js"></script>
-</body>
-
-</html>
+<?php require_once ('footer.php')?>

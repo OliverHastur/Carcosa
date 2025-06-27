@@ -1,59 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php require_once ('header-index.php')?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Web/Site completo V2/assets/css/style.css">
-    <title>La Coqueteria</title>
-</head>
-
-<body>
-    <!--INÍCIO DO BANNER-->
-    <div class="banner">
-        <!--INÍCIO DO CONTAINER-->
-        <div class="container">
-            <!--INÍCIO DA NAVEGAÇÃO-->
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="/Web/Site completo V2/assets/img/logo.png" alt="" width="125px"></a>
-                </div>
-                <!--INÍCIO DO MENU DE NAVEGAÇÃO-->
-                <nav>
-                    <ul id="MenuItens">
-                        <li><a href="index.html" title="">Início</a></li>
-                        <li><a href="produtos.html" title="">Produtos</a></li>
-                        <li><a href="" title="">Empresa</a></li>
-                        <li><a href="contatos.html" title="">Contatos</a></li>
-                        <li><a href="minha-conta.html" title="">Minha Conta</a></li>
-                    </ul>
-                </nav>
-                <!--FIM DO MENU DE NAVEGAÇÃO-->
-                <a href="carrinho.html" class="" title="">
-                    <img src="/Web/Site completo V2/assets/img/carrinho.png" alt="" width="30px" height="30px">
-                </a>
-                <img src="/Web/Site completo V2/assets/img/menu.png" alt="" class="menu-celular"
-                    onclick="menucelular()">
-            </div>
-            <!--FIM DA NAVEGAÇÃO-->
-            <!--INÍCIO TEXTO DO BANNER-->
-            <div class="linha">
-                <div class="col-2">
-                    <h1>Escolha um novo <br>estilo de vida</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
-                    <br><a href="" class="btn">Mais informações &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="/Web/Site completo V2/assets/img/banner-1.png" alt="">
-                </div>
-            </div>
-            <!--FIM TEXTO DO BANNER-->
-        </div>
-        <!--FIM DO CONTAINER-->
-    </div>
-    <!--FIM DO BANNER-->
-
-    <!--INÍCIO CATEGORIAS EM DESTAQUE-->
+ <!--INÍCIO CATEGORIAS EM DESTAQUE-->
     <div class="categorias">
         <!--INÍCIO CORPO DAS CATEGORIAS EM DESTAQUE-->
         <div class="corpo-categorias">
@@ -61,15 +8,15 @@
             <div class="linha">
 
                 <div class="col-3">
-                    <img src="/Web/Site completo V2/assets/img/categoria-1.jpg" alt="">
+                    <img src="/coqueteria-v1/assets/img/categoria-1.jpg" alt="">
                 </div>
 
                 <div class="col-3">
-                    <img src="/Web/Site completo V2/assets/img/categoria-2.jpg" alt="">
+                    <img src="/coqueteria-v1/assets/img/categoria-2.jpg" alt="">
                 </div>
 
                 <div class="col-3">
-                    <img src="/Web/Site completo V2/assets/img/categoria-3.jpg" alt="">
+                    <img src="/coqueteria-v1/assets/img/categoria-3.jpg" alt="">
                 </div>
             </div>
             <!--FIM LINHA DO CORPO DAS CATEGORIAS EM DESTAQUE-->
@@ -84,8 +31,8 @@
         <div class="linha">
             <!--INÍCIO ITEM PRODUTO 1 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-1.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-1.jpg" alt="">
                 </a>
                 <h4>Bolsa Modelo Canoa</h4>
                 <div class="classificacao">
@@ -100,8 +47,8 @@
             <!--FIM ITEM PRODUTO 1 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 2 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-2.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-2.jpg" alt="">
                 </a>
                 <h4>Bucket Hat</h4>
                 <div class="classificacao">
@@ -116,8 +63,8 @@
             <!--FIM ITEM PRODUTO 2 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 3 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-3.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-3.jpg" alt="">
                 </a>
                 <h4>Amigurumi</h4>
                 <div class="classificacao">
@@ -132,8 +79,8 @@
             <!--FIM ITEM PRODUTO 3 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 4 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-4.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-4.jpg" alt="">
                 </a>
                 <h4>Balaclava</h4>
                 <div class="classificacao">
@@ -153,8 +100,8 @@
         <div class="linha">
             <!--INÍCIO ITEM PRODUTO 5 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-5.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-5.jpg" alt="">
                 </a>
                 <h4>Bolsa Modelo Rio</h4>
                 <div class="classificacao">
@@ -169,8 +116,8 @@
             <!--FIM ITEM PRODUTO 5 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 6 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-6.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-6.jpg" alt="">
                 </a>
                 <h4>Boné de croche</h4>
                 <div class="classificacao">
@@ -185,8 +132,8 @@
             <!--FIM ITEM PRODUTO 6 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 7 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-7.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-7.jpg" alt="">
                 </a>
                 <h4>Bandana</h4>
                 <div class="classificacao">
@@ -201,8 +148,8 @@
             <!--FIM ITEM PRODUTO 7 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 8 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-8.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-8.jpg" alt="">
                 </a>
                 <h4>Centro de Mesa</h4>
                 <div class="classificacao">
@@ -217,8 +164,8 @@
             <!--FIM ITEM PRODUTO 8 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 9 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-9.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-9.jpg" alt="">
                 </a>
                 <h4>Sousplat</h4>
                 <div class="classificacao">
@@ -233,8 +180,8 @@
             <!--FIM ITEM PRODUTO 9 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 10 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-10.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-10.jpg" alt="">
                 </a>
                 <h4>Tapete</h4>
                 <div class="classificacao">
@@ -249,8 +196,8 @@
             <!--FIM ITEM PRODUTO 10 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 11 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                    <img src="/Web/Site completo V2/assets/img/produto-11.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                    <img src="/coqueteria-v1/assets/img/produto-11.jpg" alt="">
                 </a>
                 <h4>Porta-Celular</h4>
                 <div class="classificacao">
@@ -265,8 +212,8 @@
             <!--FIM ITEM PRODUTO 11 EM DESTAQUE-->
             <!--INÍCIO ITEM PRODUTO 12 EM DESTAQUE-->
             <div class="col-4">
-                <a href="ver-produto.html" title="">
-                <img src="/Web/Site completo V2/assets/img/produto-12.jpg" alt="">
+                <a href="ver-produto.php" title="">
+                <img src="/coqueteria-v1/assets/img/produto-12.jpg" alt="">
             </a>
                 <h4>Pochete</h4>
                 <div class="classificacao">
@@ -289,7 +236,7 @@
         <div class="corpo-categorias">
             <div class="linha">
                 <div class="col-2">
-                    <img src="/Web/Site completo V2/assets/img/banner-2.png" alt="" class="oferta-img">
+                    <img src="/coqueteria-v1/assets/img/banner-2.png" alt="" class="oferta-img">
                 </div>
 
                 <div class="col-2">
@@ -322,7 +269,7 @@
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
                     </div>
-                    <img src="/Web/Site completo V2/assets/img/cliente-1.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/cliente-1.png" alt="">
                     <h3>Dayde Costa</h3>
                 </div>
                 <!--FIM ITEM 1 DEPOIMENTO-->
@@ -340,7 +287,7 @@
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
                     </div>
-                    <img src="/Web/Site completo V2/assets/img/cliente-2.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/cliente-2.png" alt="">
                     <h3>Déssio Pinto</h3>
                 </div>
                 <!--FIM ITEM 2 DEPOIMENTO-->
@@ -358,7 +305,7 @@
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
                     </div>
-                    <img src="/Web/Site completo V2/assets/img/cliente-3.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/cliente-3.png" alt="">
                     <h3>Paula Tejano</h3>
                 </div>
                 <!--FIM ITEM 3 DEPOIMENTO-->
@@ -373,23 +320,23 @@
             <div class="linha">
 
                 <div class="col-5">
-                    <img src="/Web/Site completo V2/assets/img/marca-1.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/marca-1.png" alt="">
                 </div>
 
                 <div class="col-5">
-                    <img src="/Web/Site completo V2/assets/img/marca-2.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/marca-2.png" alt="">
                 </div>
 
                 <div class="col-5">
-                    <img src="/Web/Site completo V2/assets/img/marca-3.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/marca-3.png" alt="">
                 </div>
 
                 <div class="col-5">
-                    <img src="/Web/Site completo V2/assets/img/marca-4.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/marca-4.png" alt="">
                 </div>
 
                 <div class="col-5">
-                    <img src="/Web/Site completo V2/assets/img/marca-5.png" alt="">
+                    <img src="/coqueteria-v1/assets/img/marca-5.png" alt="">
                 </div>
 
             </div>
@@ -397,67 +344,4 @@
     </div>
     <!--FIM MARCAS PARCEIRAS-->
 
-    <!--INÍCIO RODAPÉ-->
-    <footer class="rodape">
-
-        <div class="container">
-
-            <div class="linha">
-
-                <div class="rodape-col-1">
-                    <h3>Baixe o nosso App</h3>
-                    <p>Baixe nosso aplicativo nas melhores plataformas</p>
-                    <div class="app-logo">
-
-                        <img src="/Web/Site completo V2/assets/img/google.png" alt="">
-                        <img src="/Web/Site completo V2/assets/img/apple.png" alt="">
-                    </div>
-                </div>
-
-                <div class="rodape-col-2">
-                    <a href="index.html" class="" title="">
-                    <img src="/Web/Site completo V2/assets/img/logo-2.png" alt="">
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias ipsum asperiores
-                        recusandae delectus corporis aspernatur iusto.</p>
-                </div>
-
-                <div class="rodape-col-3">
-                    <h3>Mais Informações</h3>
-                    <ul>
-                        <li>Cupons</li>
-                        <li>Blog</li>
-                        <li>Política de Privacidade</li>
-                        <li>Contatos</li>
-                    </ul>
-                </div>
-
-                <div class="rodape-col-4">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                    <a>
-                        <li>Facebook</li>
-                        </a>
-                        <a href="https://www.instagram.com/la__coqueteria/?utm_source=ig_web_button_share_sheet">
-                        <li>Instagram</li>
-                        </a>
-                        <a>
-                        <li>Youtube</li>
-                        </a>
-                        <a>
-                        <li>X</li>
-                        </a>
-                    </ul>
-                </div>
-                <p class="direitos">
-                    &#169; Todos os direitos reservados | La Coqueteria | 2025
-                </p>
-            </div>
-    </footer>
-    <!--FIM RODAPÉ-->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="/Web/Site completo V2/assets/js/app.js"></script>
-</body>
-
-</html>
+<?php require_once ('footer.php')?>
